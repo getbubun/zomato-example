@@ -1,0 +1,51 @@
+div.food-home{
+    height: 80%;
+    font-family: "Roboto";
+    
+    background: url('../../assets/food1.jpg') no repeat;
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+
+.header{
+    color:white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    
+}
+h2{
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+.centerrow {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    padding: 2em;
+}
+
+.container {
+    height: 100vh;
+    background: url("../../assets/food1.jpg") ;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+
+
+.centerrow{
+    margin-top: 3em;
+}
+
+.searchspace { 
+    border-radius: 5px;
+    background: #cb202d;
+    border: none;
+}
+

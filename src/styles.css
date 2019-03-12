@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+html,body{
+    font-family: "Roboto";
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+}  
+
+.ng-dropdown-panel.ng-select-bottom {
+    height: 300%;
+    overflow-y: hidden;
+}
+
+.ng-select .ng-select-container::after {
+    border-bottom: none;
+}
+
+.ng-select.ng-select-focused .ng-select-container .ng-value-container .ng-placeholder,
+.ng-select.ng-select-focused .ng-select-container .ng-arrow-wrapper .ng-arrow{
+    color: rgba(0,0,0,0.54);
+}
+
+.ng-select.ng-select-single .ng-select-container .ng-arrow-wrapper {
+    bottom: 17px;
+}
+
+.ng-select.ng-select-single .ng-select-container .ng-clear-wrapper {
+    bottom: 15px;
+}
+
+.ng-select-single .ng-select-container .ng-value-container .ng-value {
+    color: white;
+    padding: 0.47em;
+}
+
+@media screen and (max-width: 425px) {
+.ng-dropdown-panel.ng-select-bottom {
+    width: 150%;
+}
+}
+
+@media screen and (max-width:320px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+.ng-dropdown-panel.ng-select-bottom {
+    width: 150%;
+}
+}
+
+
+

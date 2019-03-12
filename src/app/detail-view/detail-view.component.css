@@ -1,0 +1,43 @@
+.row {
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+}
+
+.header_resto {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.image_height {
+    max-width: 80%;
+    margin: 0 auto;
+    max-height: 350px ;
+}
+
+.feature_image {
+    width: 100%;
+    background: url('../../assets/feature.jpg') no repeat;
+    background-size: cover;
+    height: 100%;
+}
+.tab-content{
+    padding: 2em;
+    margin-top: 3em;
+}
+.container{
+    padding-top: 3em;
+}
+.card-body{
+    padding: 2em;
+}
+
+.card-text{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container-fluid{
+    font-family: "Roboto"
+}

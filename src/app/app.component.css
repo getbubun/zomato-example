@@ -1,0 +1,9 @@
+.navbar{
+    font-family: "Roboto";
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic
+}
